@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Nicole Conill</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+	<script src="https://kit.fontawesome.com/3929d06fd9.js" crossorigin="anonymous"></script>
+	<script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+</head>
+
+<body>
+	
+	<!-- Navigation Bar -->
+	<div class="topnav">
+		
+		<a href="#" class="active navName">Nicole Conill</a>
+		
+		<div class="topnav-right" id="myTopnav">
+
+			<a href="#about"><i class="fa-solid fa-user"></i>&ensp;About</a>
+			<a href="#experience"><i class="fa-solid fa-briefcase"></i>&ensp;Experience</a>
+			<a href="#skills"><i class="fa-solid fa-screwdriver-wrench"></i>&ensp;Skills</a>
+			<a href="#education"><i class="fa-solid fa-user-graduate"></i>&ensp;Education</a>
+			<a href="#contact"><i class="fa-solid fa-envelope"></i>&ensp;Contact</a>
+			<a href="javascript:void(0);" class="icon" onclick="navCollapse()">
+				<i class="fa fa-bars"></i>
+			</a>
+			
+		</div>
+	
+	</div>
+
+
+	<!-- Navigation Bar Script -->
+	<script>
+	function navCollapse() {
+  		var x = document.getElementById("myTopnav");
+  		if (x.className === "topnav-right") {
+    		x.className += "responsive";
+  		} else {
+    		x.className = "topnav-right";
+  		}
+	}
+	</script>
+
+	
+	
+</body>
+</html>
