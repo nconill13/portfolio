@@ -11507,3 +11507,28 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.skills-grid {
+	display: flex;
+	flex-wrap: wrap;
+ 	justify-content: space-around;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.skills-grid li {
+  /*transition: 0.3s;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.skills-grid-box {
+  	align-content: center;
+	justify-content: space-between;
+	width: 800;
+}
